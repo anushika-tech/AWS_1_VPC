@@ -1,6 +1,6 @@
 AWS_1_VPC
 Networking & Subnetting (AWS VPC Setup)
-1. Brief Explanation
+Explanation
 
 I designed a custom VPC using CIDR 10.0.0.0/16, which provides a large private address space and allows room for subnet expansion in the future.
 The network is divided into four /24 subnets: two public and two private. Public subnets are used for internet-facing resources and are connected to an Internet Gateway (IGW).
